@@ -1,4 +1,6 @@
 
+console.log("im in")
+
 function addArticle(insertDiv, article){
 
 /*

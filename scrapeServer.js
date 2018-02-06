@@ -31,7 +31,7 @@ db.on("error", function(error){
 
 //Mongoose - success message upon database connection
 db.once("open", function(){
-	console.log("The 'goose is go!")
+	console.log("Connected!")
 });
 
 
@@ -45,7 +45,7 @@ app.get('/', function(request, response) {
 //Scrape route
 app.get("/scrape", function(req, res){
 	console.log("***scrape***");
-	var url = "http://www.streetsblog.org/";
+	var url = "http://www.nytimes.com/";
 	request(url, function (error, response, html) {
 		if(error){
 			throw error;

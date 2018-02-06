@@ -1,2 +1,2 @@
-# MongoHomework
+
 Mongo Homework
